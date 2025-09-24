@@ -13,6 +13,10 @@ class MyClass
     static void PrintArray(int[] programmArray, int iterator)
     {
         if (iterator >= programmArray.Length) return;
+        
+        Console.Write(programmArray[iterator] + " ");
+        
+        PrintArray(programmArray, iterator + 1);
     }
     static void Main()
     {
