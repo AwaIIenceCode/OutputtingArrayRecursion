@@ -1,13 +1,13 @@
 ﻿using System;
 class MyClass
 {
-    static void Generaterray(int[] programmArry, Random rnd, int iterator)
+    static void GenerateArray(int[] programmArray, Random rnd, int iterator)
     {
-        if (iterator >= programmArry.Length) return;
+        if (iterator >= programmArray.Length) return;
         
-        programmArry[iterator] = rnd.Next(-11, 11);
+        programmArray[iterator] = rnd.Next(-11, 11);
         
-        Generaterray(programmArry, rnd, iterator + 1);
+        GenerateArray(programmArray, rnd, iterator + 1);
     }
 
     static void PrintArray(int[] programmArray, int iterator)
@@ -26,7 +26,7 @@ class MyClass
         const byte arraySize = 15;
         int[] programmArray = new int [arraySize];
 
-        Generaterray(programmArray, rnd, iterator);
+        GenerateArray(programmArray, rnd, iterator);
         PrintArray(programmArray, iterator);
 
     }
