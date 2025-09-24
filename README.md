@@ -3,7 +3,7 @@
 A C# console application that demonstrates recursion by generating and printing an array of random integers.
 
 ## How to Run
-1. Clone the repository: `git clone https://github.com/AwaIIenceCode/RecursiveArrayTask.git`
+1. Clone the repository: `git clone https://github.com/AwaIIenceCode/OutputtingArrayRecursion.git`
 2. Open in Visual Studio or Rider.
 3. Build and run the project.
 4. Observe the console output displaying a randomly generated array of 15 integers.
